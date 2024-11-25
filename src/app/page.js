@@ -1,6 +1,7 @@
 'use client';
 import AverageCalculator from "./AvarageCalculator";
 import LimitedCounter from "./LimitedCounter";
+import ShoppingList from "./ShoppingList";
 import StudentList from "./StudentList";
 import SurveySimulator from "./SurveySimulator";
 
@@ -27,6 +28,12 @@ export default function Home() {
       <br/>
       <h1>Ejercicio 4</h1>
       <SurveySimulator/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <h1>Ejercicio 5</h1>
+      <ShoppingList/>
       <br/>
       <br/>
       <br/>

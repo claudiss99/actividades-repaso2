@@ -13,6 +13,12 @@ export default function ShoppingList(){
         ])
     }
 
+    function handleClickDelete(productoId){
+        setProductos(
+            productos.filter(p => p.id !== productoId)
+        );
+    }
+
     return(
         <>
             <input
@@ -24,11 +30,7 @@ export default function ShoppingList(){
             <ul>
                 {productos.map(producto => (
                     <li key= {producto.id}>{producto.name}
-                        <button onClick={() => {
-                            setProductos(
-                                productos.filter(p => p.id !== producto.id)
-                            );
-                        }}>Eliminar Producto</button>
+                        <button onClick={() => {handleClickDelete(producto.id)}}>Eliminar Producto</button>
                     </li>
                 ))}
 

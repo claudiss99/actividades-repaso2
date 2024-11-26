@@ -1,9 +1,11 @@
 'use client';
 import AverageCalculator from "./AvarageCalculator";
 import LimitedCounter from "./LimitedCounter";
+import LiveValidationForm from "./LiveValidationForm";
 import ShoppingList from "./ShoppingList";
 import StudentList from "./StudentList";
 import SurveySimulator from "./SurveySimulator";
+import UserTable from "./userTable";
 
 export default function Home() {
   return (
@@ -34,6 +36,18 @@ export default function Home() {
       <br/>
       <h1>Ejercicio 5</h1>
       <ShoppingList/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <h1>Ejercicio 9</h1>
+      <UserTable/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <h1>Ejercicio 13</h1>
+      <LiveValidationForm/>
       <br/>
       <br/>
       <br/>

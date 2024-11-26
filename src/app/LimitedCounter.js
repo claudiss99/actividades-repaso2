@@ -8,7 +8,7 @@ export default function LimitedCounter(){
         if (limite === 0){
             alert('Introduce un limite, porfavor');
         }else{
-            if(count !== limite){
+            if(count < limite){
                 setCount(count+1);
             }
         }

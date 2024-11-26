@@ -5,8 +5,8 @@ let nextId = 0;
 export default function AverageCalculator(){
     const[name, setName] = useState('');
     const[calificaciones, setCalificaciones] = useState([]);
+    const [promedio, setPromedio] = useState(0);
 
-    let average;
     return(
         <>
             <h2>Calificaciones</h2>
@@ -28,7 +28,6 @@ export default function AverageCalculator(){
                 //{average += calificacion}
                 ))}
             </ul>
-            <h2>Promedio de Calificaciones: {average/calificaciones.length}</h2>
         </>
     );
 }

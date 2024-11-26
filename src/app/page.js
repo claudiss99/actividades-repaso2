@@ -1,5 +1,6 @@
 'use client';
 import AverageCalculator from "./AvarageCalculator";
+import EjemploImmer from "./EjemploImmer";
 import LimitedCounter from "./LimitedCounter";
 import LiveValidationForm from "./LiveValidationForm";
 import ShoppingList from "./ShoppingList";
@@ -48,6 +49,12 @@ export default function Home() {
       <br/>
       <h1>Ejercicio 13</h1>
       <LiveValidationForm/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <h1>Ejercicio Immer</h1>
+      <EjemploImmer/>
       <br/>
       <br/>
       <br/>
